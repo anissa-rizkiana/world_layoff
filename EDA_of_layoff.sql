@@ -20,8 +20,7 @@ SELECT country,
        SUM(total_laid_off) AS total_laid_off
 FROM layoffs_copy2
 GROUP BY country
-ORDER BY total_laid_off DESC
-LIMIT 10;
+ORDER BY total_laid_off DESC;
 
 -- 3. Funding vs. Layoffs
 -- Goal: Examine if companies with higher funds raised tend to have more layoffs.
