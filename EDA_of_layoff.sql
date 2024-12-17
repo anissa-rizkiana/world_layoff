@@ -28,7 +28,7 @@ ORDER BY total_laid_off DESC;
 SELECT funds_raised_millions, 
        SUM(total_laid_off) AS total_laid_off
 FROM layoffs_copy2
-WHERE funds_raised_millions IS NOT NULL
+WHERE funds_raised_millions > 0
 GROUP BY funds_raised_millions
 ORDER BY funds_raised_millions DESC;
 
