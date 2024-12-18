@@ -57,7 +57,7 @@ The following exploratory analyses were performed on the cleaned dataset:
 ## Tools and Technologies
 - **Database**: MySQL
 - **IDE**: MySQL Workbench
-- **Visualization**: Tableau (used for additional exploratory visualizations) **on progress**
+- **Visualization**: Tableau (used for additional exploratory visualizations) **(https://public.tableau.com/shared/YKHYHNNZ3?:display_count=n&:origin=viz_share_link)**
 
 ## Future Work
 - Incorporate advanced analysis techniques, such as predictive modeling for future layoffs.
